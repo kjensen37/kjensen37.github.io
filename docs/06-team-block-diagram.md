@@ -16,14 +16,16 @@ _Italic Text_
 
 ## Images
 
-![image caption](https://idealab.asu.edu/assets/images/research/jumper1.png)
-
-![dead bug circuit](Image01.jpg){style width:"350" height:"300;"}
-**Figure 2:** Early PCB working design
+![image caption](https://idealab.asu.edu/assets/images/research/jumper1.png)  
+**Figure 2:** Here is a picture of an image linked on the internet
 
 
-![showcase](ImageShowcase.png)
-**Figure 3:** Innovation Showcase Spring '25, where the products were a STEM-themed display that demonstrates a single scientific/engineering concept with the intended user of K-12 students interested in learning about science, technology, engineering, or math.
+![dead bug circuit](../image/imageGoal.JPG){style="width:350px;"}  
+**Figure 2:** Here is a picture from the image folder on my local site, with css formatting to make it smaller
+
+<!-- 
+![showcase](../image/innovation_showcase_Sp-2025.jpg)  
+**Figure 3:** Innovation Showcase Spring '25, where the products were a STEM-themed display that demonstrates a single scientific/engineering concept with the intended user of K-12 students interested in learning about science, technology, engineering, or math. -->
 
 
 ## Results
