@@ -5,13 +5,13 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">(Your Name) Datasheet</font><br>
+<font size= "6">Kelton Jensen Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Surveyor Robot</font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team 201 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: 1, 14, 2026**
 </center>
 
 ## Introduction
@@ -32,4 +32,3 @@ To review the details listed of the material used to construct the subsection, y
 
 >Continue for all the remaining/missing sections.
 
-1. test
