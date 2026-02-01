@@ -10,5 +10,6 @@ The following sections document the requirements of this module. I was assigned 
 | Surface mounted, 3.3V switching power regulatore | 3.2 Volts | 3.3 Volts | No |
 | Surface mounted microcontroller | 1 PIC or ESP | 8-bit PIC | No |
 | Connection to recieve power | Barrel jack or other connector| Able to power PCB from a teamates board  | No |
+| Connection to transmit data | Send temperature data | Activly update temperature measurements | No |
 | Temperature Sensor | Basic ambient temperature sensor | Ability to measure and record temperatures | No |
 | Debugging LED's | LED's | Sufficient debugging LED's to improve quality of life when fixing the board | No |
