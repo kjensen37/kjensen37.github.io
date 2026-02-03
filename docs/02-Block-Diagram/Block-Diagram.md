@@ -23,5 +23,4 @@ Showing an example of how to import a screenshot of the block diagram created ou
 
 ![Block Diagram](KJensen314.drawio.png)
 
-
 A PDF of the block diagram can be viewed ["Here"](KJensen314.draw.io.pdf)
