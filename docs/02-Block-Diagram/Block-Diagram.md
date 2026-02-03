@@ -6,14 +6,7 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
+Below is the block diagram for my subsystem for Team 201. My diagram contains an ESP32, a temperature sensor, and debugging LEDs. Information and power are distributed between team members in the daisy chain format. The board will receive power through a barrel jack or another team members board which is all regulated by a 3.3V power switching supply. The connectors have a wire decdicated for UART and unregulated power.
 
 To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
 
