@@ -8,7 +8,7 @@ The following sections document the requirements of this module. I was assigned 
 | **Requirement Description** | **Measure of<br> Threshold** | **Target<br>Measure** |**Stretch<br>Requirement<br>(Y-N)**|
 |-----------------------------| ----------------- | ----------------- | :-----: |
 | Surface mounted, 3.3V switching power regulatore | 3.2 Volts | 3.3 Volts | No |
-| Surface mounted microcontroller | 1 PIC or ESP | 8-bit PIC | No |
+| Surface mounted microcontroller | 1 PIC or ESP | ESP32 | No |
 | Connection to recieve power | Barrel jack or other connector| Able to power PCB from a teamates board  | No |
 | Connection to transmit data | Send temperature data | Activly update temperature measurements | No |
 | Temperature Sensor | Basic ambient temperature sensor | Ability to measure and record temperatures | No |
