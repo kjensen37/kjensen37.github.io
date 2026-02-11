@@ -31,9 +31,9 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Digital Output                             | I²C Required |
+    | Good Accuracy & Resolution                      | Cost Slightly Higher                                        |
+    | Low Power & Wide Supply                      | Longer Conversion Latency                                      |
 
    2. TMP235A4DBZR
 
@@ -44,9 +44,9 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Simple Analog Output                             | Analog Complexity |
+    | Wide Operating Range                     | Moderate Accuracy                                      |
+    | Low Quiescent Power                    |  Output Susceptible to Noise |
 
    3. MCP9700T-E/LT
 
@@ -57,11 +57,11 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Very Low Cost & Easy                              | Lower Accuracy|
+    | Direct ADC Readout                   | No Digital Interface                                       |
+    | Low Power Consumption                  | Readings Affected by System |
 
-**Rationale:** A clock oscillator is easier ...
+**Rationale:** I have chosen the TMP1075DSGR temperature sensor. Although it is the most expensive of the three, the use of I2C will be beneficial aswell as the accuracy and a 12-bit resolution. I believe that the ease of use aswell as the accuracy are enough for me to choose it even with the cost difference.
 
 ---------------------
 
@@ -76,9 +76,9 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | High efficiency step-down design                               |Limited output current|
+    | Small footprint                     | Fixed output only                                     |
+    | Wide input range | No advanced features |
 
    2. TLV61046ADBVR
 
@@ -89,9 +89,9 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Boost capability                             | Not a true linear regulator |
+    | Integrated protections                   | Boost only                                       |
+    | Isolation in shutdown                    |Current limits dependent on configuration |
 
    3. AP63203WU-7
 
@@ -102,11 +102,11 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Higher output current (2 A)                             | Fixed output |
+    | Wide input range                     | Requires external inductors/caps                                      |
+    | EMI-friendly design | Higher complexity vs LDO |
 
-**Rationale:** A clock oscillator is easier ...
+**Rationale:** The voltage regulator I am choosing is the SC189ZSKTRT. The reason being the small footprint for more real estate on the pcb and I think when it comes to a voltage regulator atleast for the scope of my PCB functions, no advanced features are more of pro than a con for simplicity.
 
 ---------------------
 
