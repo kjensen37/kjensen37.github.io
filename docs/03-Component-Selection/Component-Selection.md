@@ -166,14 +166,14 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 | ESP32 S3 Technical Reference Manual URL       | [manual](https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf)     | Has details on I/O multiplexing, USB, and others                                                          |
 | Vendor link                                   | [digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)      | Digikey, Jameco, etc.  Do not paste links directly into the table.  Use a [link](#)                       |
 | Code Examples                                 | [I2C](https://docs.espressif.com/projects/arduino-esp32/en/latest/api/i2c.html) [sensor tutorials](https://www.youtube.com/watch?v=M3YetBHXsaU)     | url(s) for libraries on github or other sites related to the microcontroller and your planned peripherals |
-| External Resources URL(s)                     | ?      | Search on Google and YouTube for other resources for each specific microcontroller.                       |
-| Unit cost                                     | ?      | Find on Digikey, Jameco, MPJA, or octopart                                                                |
-| Absolute Maximum Current for entire IC        | ?      | Find in the microcontroller datasheet                                                                     |
-| Supply Voltage Range                          | ?      | Min / Nominal / Max / Absolute Max, as found in datasheet                                                 |
-| Absolute Maximum current <br> (for entire IC) | ?      | as found in datasheet                                                                                     |
-| Maximum GPIO current <br> (per pin)           | ?      | as found in datasheet                                                                                     |
-| Supports External Interrupts?                 | ?      | as found in datasheet                                                                                     |
-| Required Programming Hardware, Cost, URL      | ?      | as found in datasheet                                                                                     |
+| External Resources URL(s)                     | [tutorial](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html) [tutorial](https://www.sunfounder.com/blogs/news/esp32-tutorial-a-comprehensive-guide-to-esp32-boards-features-and-getting-started?srsltid=AfmBOoq0Rigol8j_W6bblAoUfDbGW1UHGosg6gkVQ4yVkZkxZZP02yKS)      | Search on Google and YouTube for other resources for each specific microcontroller.                       |
+| Unit cost                                     | $5.06      | Find on Digikey, Jameco, MPJA, or octopart                                                                |
+| Absolute Maximum Current for entire IC        | 355mA      | Find in the microcontroller datasheet                                                                     |
+| Supply Voltage Range                          | 3.0V, 3.3V, and 3.6V    | Min / Nominal / Max / Absolute Max, as found in datasheet                                                 |
+| Absolute Maximum current <br> (for entire IC) | 355mA      | as found in datasheet                                                                                     |
+| Maximum GPIO current <br> (per pin)           | 40mA      | as found in datasheet                                                                                     |
+| Supports External Interrupts?                 | Yes      | as found in datasheet                                                                                     |
+| Required Programming Hardware, Cost, URL      | The ESP32 an be programmed with the SNAP from MPLAB, which is $11.21 per unit, [URL](https://www.digikey.com/en/products/detail/microchip-technology/PG164100/9562532?gclsrc=aw.ds&gad_source=1&gad_campaignid=20790518593&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEBFDBDZAXSOk26tpPlg5tqYGxDdNkjizXdNqGZbL3J6GM2AoDbkyekaAsYEEALw_wcB)      | as found in datasheet                                                                                     |
 
 | Module         | # Available | Needed | Associated Pins (or * for any) |
 | -------------- | ----------- | ------ | ------------------------------ |
