@@ -114,7 +114,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
 1. LTST-C190KFKT
 
-    ![](reg1.png)
+    ![](led1.png)
 
     * $0.86/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
@@ -127,7 +127,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
    2. UHD111A-FKA-C3K23E1L3VG5ZB3Z3
 
-    ![](reg2.png)
+    ![](led2.png)
 
     * $1.24/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
@@ -140,7 +140,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
    3. SML-D12U1WT86
 
-    ![](reg3.png)
+    ![](led3.png)
 
     * $0.71/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
