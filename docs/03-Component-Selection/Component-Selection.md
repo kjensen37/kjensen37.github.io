@@ -22,7 +22,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
 **Temperature Sensor**
 
-1. TMP1075DSGR
+1. IC TEMP SENSOR - TMP1075DSGR
 
     ![](temp1.png)
 
@@ -35,7 +35,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
     | Good Accuracy & Resolution                      | Cost Slightly Higher                                        |
     | Low Power & Wide Supply                      | Longer Conversion Latency                                      |
 
-   2. TMP235A4DBZR
+   2. LOW-POWER HIGH-ACCURACY ANALOG O - TMP235A4DBZR
 
     ![](temp2.png)
 
@@ -48,7 +48,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
     | Wide Operating Range                     | Moderate Accuracy                                      |
     | Low Quiescent Power                    |  Output Susceptible to Noise |
 
-   3. MCP9700T-E/LT
+   3. SENSOR ANALOG -40C-125C SC70-5 - MCP9700T-E/LT
 
     ![](temp3.png)
 
@@ -61,13 +61,13 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
     | Direct ADC Readout                   | No Digital Interface                                       |
     | Low Power Consumption                  | Readings Affected by System |
 
-**Rationale:** I have chosen the TMP1075DSGR temperature sensor. Although it is the most expensive of the three, the use of I2C will be beneficial aswell as the accuracy and a 12-bit resolution. I believe that the ease of use aswell as the accuracy are enough for me to choose it even with the cost difference.
+**Rationale:** I have chosen option #1, the TMP1075DSGR temperature sensor. Although it is the most expensive of the three, the use of I2C will be beneficial aswell as the accuracy and a 12-bit resolution. I believe that the ease of use aswell as the accuracy are enough for me to choose it even with the cost difference.
 
 ---------------------
 
 **3.3 Volt Switching Regulator**
 
-1. SC189ZSKTRT
+1. IC REG BUCK 3.3V 1.5A SOT23-5 - SC189ZSKTRT
 
     ![](reg1.png)
 
@@ -80,7 +80,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
     | Small footprint                     | Fixed output only                                     |
     | Wide input range | No advanced features |
 
-   2. TLV61046ADBVR
+   2. IC REG BOOST ADJ 980MA SOT23-6 - TLV61046ADBVR
 
     ![](reg2.png)
 
@@ -93,7 +93,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
     | Integrated protections                   | Boost only                                       |
     | Isolation in shutdown                    |Current limits dependent on configuration |
 
-   3. AP63203WU-7
+   3. IC REG BUCK 3.3V 2A TSOT23-6 - AP63203WU-7
 
     ![](reg3.png)
 
@@ -106,13 +106,13 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
     | Wide input range                     | Requires external inductors/caps                                      |
     | EMI-friendly design | Higher complexity vs LDO |
 
-**Rationale:** The voltage regulator I am choosing is the SC189ZSKTRT. The reason being the small footprint for more real estate on the pcb and I think when it comes to a voltage regulator atleast for the scope of my PCB functions, no advanced features are more of pro than a con for simplicity.
+**Rationale:** The voltage regulator I am choosing is #1, the SC189ZSKTRT. The reason being the small footprint for more real estate on the pcb and I think when it comes to a voltage regulator atleast for the scope of my PCB functions, no advanced features are more of pro than a con for simplicity.
 
 ---------------------
 
 **LED**
 
-1. LTST-C190KFKT
+1. LED ORANGE CLEAR CHIP SMD - LTST-C190KFKT
 
     ![](led1.png)
 
@@ -121,11 +121,11 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Very Small & Low-cost                       | Limited Brightness|
+    | Low Power Consumption                    | Single Color Only                                      |
+    | Easy to Integrate | Wide Viewing Angle but Basic Performance |
 
-   2. UHD111A-FKA-C3K23E1L3VG5ZB3Z3
+   2. LED RGB 0404 SMD - UHD111A-FKA-C3K23E1L3VG5ZB3Z3
 
     ![](led2.png)
 
@@ -134,11 +134,11 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Full RGB Control                             | Complex Drive Requirements |
+    | Compact & Bright for Size                  | Lower Output vs High-Power LEDs                                     |
+    | Good for Dynamic Displays | Moisture Sensitivity |
 
-   3. SML-D12U1WT86
+   3. LED RED DIFFUSED 1608 SMD - SML-D12U1WT86
 
     ![](led3.png)
 
@@ -147,11 +147,11 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Compact Footprint                             | Single Color Only |
+    | Good Visibility                   | Limited Application Beyond Indicators                                     |
+    | Standard Drive Requirements| Mid-Level Brightness |
 
-**Rationale:** A clock oscillator is easier ...
+**Rationale:** The LED I will be using is #1, the LTST-C190KFKT. Simplicity yet again showing favoritism, as being just debugging LED's, there is no need for overcomplexity nor high spending. The cheapest and simplest of these three is #1.
 
 ---------------------------------
 
