@@ -108,4 +108,49 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
 **Rationale:** A clock oscillator is easier ...
 
+---------------------
+
+**LED**
+
+1. LTST-C190KFKT
+
+    ![](reg1.png)
+
+    * $0.86/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive                               | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Meets surface mount constraint of project |
+
+   2. UHD111A-FKA-C3K23E1L3VG5ZB3Z3
+
+    ![](reg2.png)
+
+    * $1.24/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive                               | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Meets surface mount constraint of project |
+
+   3. SML-D12U1WT86
+
+    ![](reg3.png)
+
+    * $0.71/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive                               | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Meets surface mount constraint of project |
+
+**Rationale:** A clock oscillator is easier ...
+
 
