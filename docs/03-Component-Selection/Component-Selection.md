@@ -37,7 +37,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
    2. TMP235A4DBZR
 
-    ![]()
+    ![](temp2.png)
 
     * $0.36/each
     * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/TMP235A4DBZR/9649794)
