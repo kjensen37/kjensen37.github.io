@@ -24,7 +24,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
 1. TMP1075DSGR
 
-    ![](image1.png)
+    ![]()
 
     * $0.46/each
     * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/TMP1075DSGR/10715322)
@@ -37,7 +37,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
    2. TMP235A4DBZR
 
-    ![](image1.png)
+    ![]()
 
     * $0.36/each
     * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/TMP235A4DBZR/9649794)
@@ -50,7 +50,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
    3. MCP9700T-E/LT
 
-    ![](image1.png)
+    ![]()
 
     * $0.40/each
     * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP9700T-E-LT/735965)
@@ -63,13 +63,15 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
 **Rationale:** A clock oscillator is easier ...
 
+---------------------
+
 **3.3 Volt Switching Regulator**
 
-1. 
+1. SC189ZSKTRT
 
-    ![](image1.png)
+    ![]()
 
-    * $1/each
+    * $0.86/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
 
     | Pros                                      | Cons                                                             |
@@ -78,11 +80,11 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
     | Compatible with PSoC                      | Needs special PCB layout.                                        |
     | Meets surface mount constraint of project |
 
-   2. 
+   2. TLV61046ADBVR
 
-    ![](image1.png)
+    ![]()
 
-    * $1/each
+    * $1.24/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
 
     | Pros                                      | Cons                                                             |
@@ -91,11 +93,11 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
     | Compatible with PSoC                      | Needs special PCB layout.                                        |
     | Meets surface mount constraint of project |
 
-   3. 
+   3. AP63203WU-7
 
-    ![](image1.png)
+    ![]()
 
-    * $1/each
+    * $0.71/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
 
     | Pros                                      | Cons                                                             |
