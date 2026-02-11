@@ -50,7 +50,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
    3. MCP9700T-E/LT
 
-    ![]()
+    ![](temp3.png)
 
     * $0.40/each
     * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP9700T-E-LT/735965)
@@ -69,7 +69,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
 1. SC189ZSKTRT
 
-    ![]()
+    ![](reg1.png)
 
     * $0.86/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
@@ -82,7 +82,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
    2. TLV61046ADBVR
 
-    ![]()
+    ![](reg2.png)
 
     * $1.24/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
@@ -95,7 +95,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
    3. AP63203WU-7
 
-    ![]()
+    ![](reg3.png)
 
     * $0.71/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
