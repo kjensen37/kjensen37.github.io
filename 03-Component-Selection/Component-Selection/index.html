@@ -899,16 +899,16 @@
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td>Digital Output</td>
+<td>I²C Required</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td>Good Accuracy &amp; Resolution</td>
+<td>Cost Slightly Higher</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
+<td>Low Power &amp; Wide Supply</td>
+<td>Longer Conversion Latency</td>
 </tr>
 </tbody>
 </table>
@@ -929,16 +929,16 @@
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td>Simple Analog Output</td>
+<td>Analog Complexity</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td>Wide Operating Range</td>
+<td>Moderate Accuracy</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
+<td>Low Quiescent Power</td>
+<td>Output Susceptible to Noise</td>
 </tr>
 </tbody>
 </table>
@@ -959,22 +959,22 @@
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td>Very Low Cost &amp; Easy</td>
+<td>Lower Accuracy</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td>Direct ADC Readout</td>
+<td>No Digital Interface</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
+<td>Low Power Consumption</td>
+<td>Readings Affected by System</td>
 </tr>
 </tbody>
 </table>
 </li>
 </ol>
-<p><strong>Rationale:</strong> A clock oscillator is easier ...</p>
+<p><strong>Rationale:</strong> I have chosen the TMP1075DSGR temperature sensor. Although it is the most expensive of the three, the use of I2C will be beneficial aswell as the accuracy and a 12-bit resolution. I believe that the ease of use aswell as the accuracy are enough for me to choose it even with the cost difference.</p>
 <hr>
 <p><strong>3.3 Volt Switching Regulator</strong></p>
 <ol>
@@ -994,16 +994,16 @@
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td>High efficiency step-down design</td>
+<td>Limited output current</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td>Small footprint</td>
+<td>Fixed output only</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
+<td>Wide input range</td>
+<td>No advanced features</td>
 </tr>
 </tbody>
 </table>
@@ -1024,16 +1024,16 @@
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td>Boost capability</td>
+<td>Not a true linear regulator</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td>Integrated protections</td>
+<td>Boost only</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
+<td>Isolation in shutdown</td>
+<td>Current limits dependent on configuration</td>
 </tr>
 </tbody>
 </table>
@@ -1054,22 +1054,22 @@
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td>Higher output current (2 A)</td>
+<td>Fixed output</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td>Wide input range</td>
+<td>Requires external inductors/caps</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
+<td>EMI-friendly design</td>
+<td>Higher complexity vs LDO</td>
 </tr>
 </tbody>
 </table>
 </li>
 </ol>
-<p><strong>Rationale:</strong> A clock oscillator is easier ...</p>
+<p><strong>Rationale:</strong> The voltage regulator I am choosing is the SC189ZSKTRT. The reason being the small footprint for more real estate on the pcb and I think when it comes to a voltage regulator atleast for the scope of my PCB functions, no advanced features are more of pro than a con for simplicity.</p>
 <hr>
 <p><strong>LED</strong></p>
 <ol>
