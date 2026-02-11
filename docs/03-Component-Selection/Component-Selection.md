@@ -24,7 +24,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
 1. TMP1075DSGR
 
-    ![]()
+    ![](temp1.png)
 
     * $0.46/each
     * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/TMP1075DSGR/10715322)
