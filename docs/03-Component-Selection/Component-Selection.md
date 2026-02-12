@@ -174,4 +174,10 @@ title: Module's Selected Major Components
 
 ![](Esp32.png)
 
+**Pin Assignments:**
+|Peripheral|Pins|: |LED 1|GPIO 13, GND| |LED 2|GPIO 14, GND| |Temperature|IO 8-9, GND| |UART|IO 36-37|
+
+**Microcontroller Selection:**
+The esp32 beats out the pic in a multitude of ways. Memory, processing, storage, bluetooth and wifi. All of these I wont be needing except for the processing. The efficiency in processing information is much quicker leading to faster more accurate results with less hardware involved. Although the job could be done with either, I am cleary favoring working with the esp32.
+
 \* The ESP32-S2 has multiple SPI interfaces, but some are for internal use
