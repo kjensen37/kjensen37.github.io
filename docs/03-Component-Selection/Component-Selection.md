@@ -172,6 +172,6 @@ title: Module's Selected Major Components
 
 **Role in Project:** My role in my group is to create a PCB to monitor and record the ambient temperature to the user interface.
 
-
+[](Esp32.jpg)
 
 \* The ESP32-S2 has multiple SPI interfaces, but some are for internal use
