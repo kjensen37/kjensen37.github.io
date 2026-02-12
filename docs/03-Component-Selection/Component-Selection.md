@@ -2,24 +2,6 @@
 title: Module's Selected Major Components
 ---
 
-## Module's Selected Major Components
-
-The following sections are the selected major components necessary for  .....
-
-### Power Management
-
-(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
-
-For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
-
-### Sensor
-
-(**remove this note/placeholder**: if applicable, this is where your  **SELECTED** sensor is shown. Otherwise, remove this section.)
-
-For more details, review the ["Appendix - Component Selection Process - Sensor"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor) selection.
-
------------
-
 **Temperature Sensor**
 
 1. IC TEMP SENSOR - TMP1075DSGR
@@ -177,15 +159,18 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
 | Module         | # Available | Needed | Associated Pins (or * for any) |
 | -------------- | ----------- | ------ | ------------------------------ |
-| UART           | ?           | ?      | ?                              |
-| external SPI\* | ?           | ?      | ?                              |
-| I2C            | ?           | ?      | ?                              |
-| GPIO           | ?           | ?      | ?                              |
-| ADC            | ?           | ?      | ?                              |
-| LED PWM        | ?           | ?      | ?                              |
-| Motor PWM      | ?           | ?      | ?                              |
-| USB Programmer | ?           | 1      | ?                              |
-| ...            |
+| UART           | 3           | 2      | *                              |
+| external SPI\* | 4           | 0      | *                              |
+| I2C            | 2           | 2      | *                              |
+| GPIO           | 36          | 2      | *                              |
+| ADC            | 20          | 0      | IO1, IO2, IO3, IO4, IO5, IO6, IO7, IO8, IO9, IO10, IO11, IO12. IO13, IO14, IO15, IO16, IO17, IO18, IO19, IO20                              |
+| LED PWM        | 8           | 2      | *                              |
+| Motor PWM      | 2           | 0      | *                              |
+| USB Programmer | 0           | 0      | Will be programmed with the MPLAB Snap                              |
+
+**Requirements:** For my board to work I need  1 UART and 1 IC2 subsytem. I also will need 2 GPIO pins. The total pins I will be using is 9, 2 UART, 2 I2C, 2 GPIO, 1 clock, 1 power and 1 ground.
+
+**Role in Project:** My role in my group is to create a PCB to monitor and record the ambient temperature to the user interface.
 
 
 
