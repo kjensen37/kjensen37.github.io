@@ -4,4 +4,5 @@ Below is the power budget for my 314 subsytem. My subsystem can run entirely off
 
 ![](PowerBudget314.png)
 
-
+-------------
+A link to a PDF view of the power budget can be found [here](PowerBudget314.pdf) and the excel view can be found [here](314PowerBudget.xlsx)
