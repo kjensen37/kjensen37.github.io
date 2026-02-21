@@ -4,7 +4,7 @@ title: Module Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is design to control a temperature sensor. It has additional functions such as debugging LED's and buttons aswell as extra headers.
 
 
 ![schematic](EGR314.png)
