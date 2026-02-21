@@ -8,7 +8,6 @@ This schematic is design to control a temperature sensor. It has additional func
 
 
 ![schematic](EGR314.png)
-**Figure ##:** Showing a example schematic.
 
 
 ## Resouces
