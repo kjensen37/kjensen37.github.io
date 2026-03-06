@@ -7,7 +7,7 @@ title: Module Schematic
 This schematic is design to control a temperature sensor. It has additional functions such as debugging LED's and buttons aswell as extra headers.
 
 
-![schematic](EGR314.png)
+![schematic](EGR314Schematic.png)
 
 
 ## Resouces
