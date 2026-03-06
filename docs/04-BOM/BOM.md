@@ -6,9 +6,7 @@ tags:
 ---
 
 ## Overview
-Written context needs to added!
-
->Pick **ONLY** one of the two examples show below. **Remove** the other example. **REMOVE notations within the remaining section about being an example.**  
+The Bill of Materials shown below have all of my components requred to build my PCB. All parts will be ordered from Digikey, while some components, the esp32, connectors, and pushbuttons, will all be provided by ASU.
 
 ## Bill of Materials
 
