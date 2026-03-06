@@ -24,4 +24,4 @@ RES SMD 10K OHM 1% 1/4W 0805 | 4 | $0.10 | $0.40 | Vishay Dale | CRCW080510K0FKE
 IC TEMP SENSOR | 3 | $0.46 | $1.38 | Texas Instruments | TMP1075DSGR | [Digikey](https://www.digikey.com/en/products/detail/texas-instruments/TMP1075DSGR/10715322) | [datasheet](https://www.ti.com/lit/ds/symlink/tmp1075.pdf) | U2 |
 IC REG BUCK 3.3V 1.5A SOT23-5 | 3 | $0.86 | $2.58 | Semtech Corporation | SC189ZSKTRT | [Digikey](https://www.digikey.com/en/products/detail/semtech-corporation/SC189ZSKTRT/2182360) | [datasheet](https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/44000000MDZF/Kz5ycNi9I5Dzzg5AzBOB4W0TtqtKUtMf03CWPRt6CLQ) | U3 |
 
-A PDF view of my BOM can be viewed [here]().
+A PDF view of my BOM can be viewed [here](EGR314BOM.pdf).
