@@ -7,11 +7,11 @@ tags:
 <center>
 <font size= "6">Kelton Jensen Datasheet</font><br>
 as part of<br>
-<font size= "8"> Surveyor Robot</font><br>
+<font size= "8"> The Duck</font><br>
 for<br>
 <font size= "5"> Team 201 </font><br>
 
-**Submission: 1, 14, 2026**
+**Submission: 3, 6, 2026**
 </center>
 
 ## Introduction
