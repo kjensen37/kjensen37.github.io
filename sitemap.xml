@@ -36,6 +36,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/06.5%20API/API/</loc>
+         <lastmod>2026-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/</loc>
          <lastmod>2026-03-16</lastmod>
          <changefreq>daily</changefreq>
